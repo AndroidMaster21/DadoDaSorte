@@ -37,10 +37,11 @@ class MainActivity : AppCompatActivity() {
         binding.button.setOnClickListener {
 
             // TODO 6: Gerar um número aleatório de 0 a 5
-            val numeroAleatorio = Random.nextInt(0, faces.size)
+            val numeroAleatorio = Random.nextInt(0, 6)
 
             // TODO 7: Obter a face de dado usando o número aleatório
-            val imagem = ContextCompat.getDrawable(this, faces[numeroAleatorio])
+            val idEscolhido = faces[numeroAleatorio]
+            val imagem = ContextCompat.getDrawable(this, idEscolhido)
 
             // TODO 8: Definir o ImageDrawable do ImageView
             binding.imgDice.setImageDrawable(imagem)
