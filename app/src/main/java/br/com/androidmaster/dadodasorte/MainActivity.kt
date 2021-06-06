@@ -21,13 +21,11 @@ class MainActivity : AppCompatActivity() {
         setContentView()
 
         // TODO 5: Detectar o pressionamento do botão
-        binding.button.setOnClickListener {
 
             // TODO 6: Gerar um número aleatório de 0 a 5
 
             // TODO 7: Obter o Drawable da face do dado usando o número aleatório
 
             // TODO 8: Definir o ImageDrawable no ImageView
-        }
     }
 }
