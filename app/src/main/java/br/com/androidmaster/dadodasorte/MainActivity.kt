@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         // TODO 3: Inicializar o ViewBinding
         binding = ActivityMainBinding.inflate(layoutInflater)
 
-        // TODO 4: Definir a view da Activity
+        // TODO 4: Definir o contentView da Activity
         setContentView(binding.root)
 
         // TODO 5: Detectar o pressionamento do botão
