@@ -17,17 +17,17 @@ class MainActivity : AppCompatActivity() {
 
         // TODO 3: Inicializar o ViewBinding
 
-        // TODO 3: Definir a view da Activity
+        // TODO 4: Definir a view da Activity
         setContentView()
 
-        // TODO 3: Detectar o pressionamento do botão
+        // TODO 5: Detectar o pressionamento do botão
         binding.button.setOnClickListener {
 
-            // TODO 5: Gerar um número aleatório de 0 a 6
+            // TODO 6: Gerar um número aleatório de 0 a 6
 
-            // TODO 6: Obter o Drawable da face do dado usando o número aleatório
+            // TODO 7: Obter o Drawable da face do dado usando o número aleatório
 
-            // TODO 7: Definir o ImageDrawable no ImageView
+            // TODO 8: Definir o ImageDrawable no ImageView
         }
     }
 }
