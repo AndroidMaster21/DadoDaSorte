@@ -30,19 +30,19 @@ class MainActivity : AppCompatActivity() {
         // TODO 3: Inicializar o ViewBinding
         binding = ActivityMainBinding.inflate(layoutInflater)
 
-        // TODO 3: Definir a view da Activity
+        // TODO 4: Definir a view da Activity
         setContentView(binding.root)
 
-        // TODO 3: Detectar o pressionamento do botão
+        // TODO 5: Detectar o pressionamento do botão
         binding.button.setOnClickListener {
 
-            // TODO 5: Gerar um número aleatório de 0 a 6
+            // TODO 6: Gerar um número aleatório de 0 a 6
             val numero = Random.nextInt(0, faces.size)
 
-            // TODO 6: Obter a face de dado usando o número aleatório
+            // TODO 7: Obter a face de dado usando o número aleatório
             val imagem = ContextCompat.getDrawable(this, faces[numero])
 
-            // TODO 7: Definir o ImageDrawable do ImageView
+            // TODO 8: Definir o ImageDrawable do ImageView
             binding.imgDice.setImageDrawable(imagem)
         }
     }
