@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         // TODO 3: Inicializar o ViewBinding
 
         // TODO 4: Definir a view da Activity
-        setContentView()
 
         // TODO 5: Detectar o pressionamento do botão
 
