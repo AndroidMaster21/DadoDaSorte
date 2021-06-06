@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         // TODO 5: Detectar o pressionamento do botão
         binding.button.setOnClickListener {
 
-            // TODO 6: Gerar um número aleatório de 0 a 6
+            // TODO 6: Gerar um número aleatório de 0 a 5
             val numero = Random.nextInt(0, faces.size)
 
             // TODO 7: Obter a face de dado usando o número aleatório
